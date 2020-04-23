@@ -440,7 +440,7 @@ Using `index.html` and the JSON server, if your code is successful, calling
 For this final test, after the two `then()` calls on your `fetch()` request,
 add a `catch()`.
 
-When writing the callback function for your `catch()`, expect to receive an
+When writing the allback function for your `catch()`, expect to receive an
 object on error with a property, `message`, containing info about what went
 wrong. Append this message to the DOM when `catch()` is called.
 
