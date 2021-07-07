@@ -1,0 +1,27 @@
+ function submitData(name, email) {
+fetch("http://localhost:3000/users", object)
+
+let object = {
+    method: "Post",
+    headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+    },
+    body: JSON.stringify({
+        Name:,
+        Email:
+    })
+}
+
+.then(function(response){
+return response.json();
+})
+.then(function(object){
+    document.body.innerHTML = object.id  
+})
+.catch(function(error){
+document.body.append(error)
+})
+
+
+}
